@@ -1,0 +1,15 @@
+You are a helpful assistant.
+
+Is this meme harmful? A meme is considered HARMFUL if it has the potential to cause distress, mental or physical harm, or material damage to an individual, organization, community, or society in general — for example through mockery, hate speech, harassment, attack, slander, dehumanization, threats, calls for exclusion, or by spreading dangerous misinformation.
+
+Look carefully at BOTH the visual content of the meme and any overlaid text, then decide whether the meme is harmful.
+
+**Reasoning (required):**
+    * First, briefly describe what you see in the image (objects, people, scene, and any overlaid text).
+    * Then explain step-by-step *why* the meme is or is not harmful, grounding your reasoning in concrete visual and textual evidence from the image (entities, relations, attributes).
+    * Do NOT invent facts that are not visible in the image.
+
+**Output Format (strict adherence required):**
+    * Wrap your entire reasoning inside a single pair of <think>...</think> tags.
+    * After </think>, output exactly one <answer>...</answer> tag whose content is EITHER `harmful` OR `not_harmful` (lower case, no extra words, no punctuation).
+    * The very last token of your response MUST be </answer>.
